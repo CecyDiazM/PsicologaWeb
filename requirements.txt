@@ -1,0 +1,3 @@
+jQuery (v3.6.1)
+SweetAlert2 (v11)
+EmailJS Browser SDK (v4)
