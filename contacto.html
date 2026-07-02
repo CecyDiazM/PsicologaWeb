@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts (Para mantener la consistencia visual y la calma de la página principal) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src="./js/app.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">emailjs.init('1hI0B_aIz_HMOt-Sj')</script>
+    <title>Contacto</title>
+</head>
+<body>
+
+  <div class="form__content">
+
+    <h2 class="form__titulo">Contacto</h2>
+    
+    <form id="form" class="form">
+
+        <div class="field">
+          <label class="form__label" for="from_name">Nombre</label>
+          <input class="form__input" type="text" name="from_name" id="from_name" autocomplete="name">
+        </div>
+
+        <div class="field">
+          <label class="form__label" for="email_id">Email</label>
+          <input class="form__input" type="email" name="email_id" id="email_id" autocomplete="email">
+        </div>
+
+        <div class="field">
+          <label class="form__label" for="reply_to">Asunto</label>
+          <input class="form__input" type="text" name="reply_to" id="reply_to">
+        </div>
+
+        <div class="field">
+          <label class="form__label form__label-area" for="message">Mensaje</label>
+          <textarea class="form__input" name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        
+        <div class="btns__btn">
+          <input class="btn" type="submit" id="button" value="Enviar Email" >
+          <a href="index.html" class="btn__back">Volver</a>
+        </div>
+
+      </form>
+      
+  </div>  
+
+</body>
+</html>
