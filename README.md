@@ -1,5 +1,7 @@
 # Sitio Web Profesional - Psicóloga
 
+https://psicologapamelaarica.com/
+
 Bienvenido al repositorio del sitio web oficial de la **Psicóloga Pamela Camacho Ayca**, una plataforma digital elegante, moderna y optimizada, diseñada para transmitir tranquilidad, profesionalismo y facilitar la gestión de consultas de salud mental en modalidad online.
 
 El diseño del sitio web utiliza una paleta de colores orgánicos y suaves (tonos crema, arena y verde oliva) orientada a la psicología del color para reducir el estrés visual y ofrecer un entorno digital acogedor y empático para los consultantes.
